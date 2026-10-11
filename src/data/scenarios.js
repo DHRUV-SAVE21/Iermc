@@ -1,0 +1,12 @@
+export const scenarios = [
+  { id: 'collision', label: 'Peak-hour collision', short: 'Collision', icon: 'alert', type: 'Collision', location: 'Western Express Hwy · southbound', time: '08:42', description: 'Two vehicles involved. Two of three lanes obstructed near the Andheri interchange.', source: 'Traffic patrol · field report', confidence: 92, lanes: '2 of 3', duration: '25–40 min', risk: 'High', spillback: [6, 9], demand: 960, capacity: [520, 480, 310], sensitiveCap: 160, emergency: 'Cooper Hospital', affected: 1240 },
+  { id: 'roadwork', label: 'Scheduled roadwork', short: 'Roadwork', icon: 'layers', type: 'Planned closure', location: 'Andheri–Kurla Rd · eastbound', time: '09:00', description: 'Approved resurfacing work closes the eastbound approach from 09:00 to 11:00.', source: 'Municipal permit · RW-204', confidence: 98, lanes: '2 of 2', duration: '09:00–11:00', risk: 'Elevated', spillback: [10, 14], demand: 780, capacity: [420, 430, 260], sensitiveCap: 130, emergency: 'Cooper Hospital', affected: 860 },
+  { id: 'emergency', label: 'Emergency access', short: 'Emergency', icon: 'hospital', type: 'Emergency corridor', location: 'Airport Rd → Cooper Hospital', time: '08:45', description: 'An authorised ambulance journey intersects a blocked corridor. Assess feasible alternatives.', source: 'Emergency coordinator · simulated', confidence: 94, lanes: '1 of 3', duration: '15–25 min', risk: 'High', spillback: [7, 11], demand: 840, capacity: [450, 470, 280], sensitiveCap: 140, emergency: 'Cooper Hospital', affected: 980 },
+  { id: 'overload', label: 'Diversion overload', short: 'Overload', icon: 'network', type: 'Diversion pressure', location: 'Western Express Hwy · diversion approaches', time: '08:48', description: 'A closure redirects 1,120 trips. Independent routing sends most demand onto a single corridor.', source: 'Scenario demand model · synthetic', confidence: 86, lanes: '2 of 3', duration: '30–45 min', risk: 'Critical', spillback: [4, 7], demand: 1120, capacity: [500, 490, 320], sensitiveCap: 150, emergency: 'Cooper Hospital', affected: 1480 },
+];
+export const corridors = [
+  { name: 'SV Road', detail: 'Western arterial', color: '#55c8ad', distance: 6.2, baseTime: 19, cost: 85 },
+  { name: 'JVLR link', detail: 'Eastern connector', color: '#719af9', distance: 8.4, baseTime: 23, cost: 112 },
+  { name: 'Link Road', detail: 'Outer corridor', color: '#bb965c', distance: 9.1, baseTime: 26, cost: 124 },
+];
+export const defaultSettings = { demandScale: 1, duration: 30, guard: true, priority: true };

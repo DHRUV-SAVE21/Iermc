@@ -1,0 +1,74 @@
+/* Readability refinements shared by the dense operations views. */
+.page-heading p, .panel-heading p, .stat-foot, .incident-title p,
+.incident-description, .incident-details dt, .source-line, .prediction-note p,
+.response-option p, .response-bottom, .response-metric span, .response-footer > span,
+.corridor-table-head, .corridor-row small, .capacity-note, .guard-caption,
+.protected-place p, .guard-explanation, .field-label, .range-captions,
+.toggle-row small, .model-disclosure, .chart-axis, .comparison-table thead th,
+.method-note p, .journey-summary p, .journey-option p, .journey-time span,
+.journey-option-foot > span:last-child, .notification-row p, .emergency-corridors p,
+.fine-print, .access-destination p, .video-script p, .story-card p,
+.audit-list p, .audit-list small, .empty-audit, .review-details dt,
+.modal-content > p, .feed-choices span, .notification-modal-row p {
+  color: #667587;
+}
+.mini-badge.success { color: #267255; }
+.mini-badge.warning { color: #896021; }
+.mini-badge.danger { color: #a64c3f; }
+.mini-badge.info { color: #476b94; }
+.recommended { color: #267255; }
+.eyebrow, .nav-label { color: #697989; }
+.usp-hero .eyebrow { color: #a2cbbb; }
+.map-location span, .map-scale-note { color: #a0b1c4; }
+.guard-caption, .source-line, .response-footer > span { line-height: 1.65; }
+.map-panel { display: flex; flex-direction: column; }
+.map-panel > .map-shell { flex: 1; }
+.map-panel > .map-shell > .map-scene { height: 100%; }
+.stat-spark { font-size: 23px; opacity: .45; }
+.mini-badge { line-height: 1.4; }
+@media (min-width: 761px) {
+  .nav-item { font-size: 12px; }
+  .workspace-switch strong, .profile strong { font-size: 12px; }
+  .workspace-switch small, .profile small, .system-health { font-size: 10px; }
+  .sidebar-insight p { font-size: 11px; }
+  .breadcrumb, .button, .feed-status { font-size: 11px; }
+  .page-heading p { font-size: 12px; }
+  .scenario-tabs button { font-size: 11px; }
+  .scenario-label { font-size: 9px; }
+  .strip-note { font-size: 10px; }
+  .stat-top { font-size: 11px; }
+  .stat-foot { font-size: 10px; }
+  .panel-heading h2 { font-size: 14px; }
+  .panel-heading p { font-size: 11px; }
+  .mini-badge { font-size: 10px; }
+  .stat-value .mini-badge { font-size: 9px; }
+  .incident-title h3 { font-size: 14px; }
+  .incident-title p, .incident-description { font-size: 11px; }
+  .incident-details > div, .incident-details dd { font-size: 11px; }
+  .prediction-note > div { font-size: 11px; }
+  .prediction-note p, .source-line { font-size: 10px; }
+  .verification-row > span:last-child { font-size: 9px; }
+  .response-option-title strong { font-size: 12px; }
+  .response-option p { font-size: 10px; }
+  .response-bottom, .response-metric span { font-size: 9px; }
+  .response-footer > span { font-size: 10px; }
+  .corridor-table-head, .corridor-row small { font-size: 10px; }
+  .corridor-row, .corridor-row strong, .util-cell b { font-size: 11px; }
+  .capacity-note, .guard-caption, .protected-place p, .guard-explanation { font-size: 10px; }
+  .protected-place strong { font-size: 11px; }
+  .insight-banner p { font-size: 11px; }
+  .insight-banner strong { font-size: 13px; }
+  .range-captions, .toggle-row small, .model-disclosure p { font-size: 10px; }
+  .journey-option p, .journey-time span, .journey-option-foot > span:last-child { font-size: 11px; }
+  .emergency-corridors h3, .access-destination strong { font-size: 12px; }
+  .emergency-corridors p, .access-destination p, .fine-print { font-size: 10px; }
+  .story-card p, .audit-list p, .review-details > div { font-size: 11px; }
+  .app-footer, .app-footer .text-button { font-size: 9px; }
+}
+@media (min-width: 1550px) {
+  .page-heading p { font-size: 13px; }
+  .stat-top, .stat-foot, .response-option p { font-size: 12px; }
+  .incident-details > div, .incident-details dd { font-size: 12px; }
+  .response-option-title strong { font-size: 13px; }
+  .response-bottom, .response-metric span { font-size: 10px; }
+}

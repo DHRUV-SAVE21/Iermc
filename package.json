@@ -1,0 +1,14 @@
+{
+  "name": "iermc-traffic-intelligence",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Interactive traffic incident prediction and coordinated response prototype",
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs dist",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20.11" }
+}
