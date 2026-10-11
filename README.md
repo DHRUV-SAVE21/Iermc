@@ -3,7 +3,7 @@ Vercel-https://iermc.vercel.app/
 
 **Predict the next bottleneck. Coordinate before it spreads.**
 
-An interactive frontend prototype for the AI-powered Traffic Incident Prediction & Response System proposed by **GiniXIndex**. The command centre demonstrates network spillback, capacity-aware routing, neighbourhood protection, and emergency access as one operator workflow.
+An interactive frontend prototype for the AI-powered Traffic Incident Prediction & Response System proposed by **IERMC**. The command centre demonstrates network spillback, capacity-aware routing, neighbourhood protection, and emergency access as one operator workflow.
 
 ## Run locally
 

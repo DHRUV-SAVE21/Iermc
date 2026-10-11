@@ -37,4 +37,4 @@ Click **Demo feed · just updated** in the header and select **Stale observation
 
 ## Suggested submission description
 
-“IERMC is an interactive traffic intelligence prototype by GiniXIndex. It demonstrates incident verification, queue spillback forecasting, capacity-aware route distribution, neighbourhood protection, emergency corridor assessment, and route-aware commuter guidance. The proposed USP is integrating network consequences and coordinated response in one operator workflow. All traffic values and comparisons in this demonstration are simulated.”
+“IERMC is an interactive traffic intelligence prototype by IERMC. It demonstrates incident verification, queue spillback forecasting, capacity-aware route distribution, neighbourhood protection, emergency corridor assessment, and route-aware commuter guidance. The proposed USP is integrating network consequences and coordinated response in one operator workflow. All traffic values and comparisons in this demonstration are simulated.”
